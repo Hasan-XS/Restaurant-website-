@@ -1,11 +1,29 @@
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, session, request,abort, redirect
+import config
 
 app = Blueprint("admin",__name__)
 
-@app.route("/admin/login")
-def login():
-    return render_template("admin/login.html")
+@app.before_request
+def before_request():
+    if session.get('admin_login', None) == None and request.endpoint != "admin.login":
+        abort(403)
 
-@app.route("/admin/dashboard")
+# admin login routes
+@app.route('/admin/login', methods=["POST", "GET"])
+def login():
+    if request.method == "POST":
+        username = request.form.get('username', None)
+        password = request.form.get('password', None)
+
+        if username == config.ADMIN_LOGIN_USERNAME and password == config.ADMIN_LOGIN_PASSWORD:
+            session['admin_login'] = username
+            return redirect("/admin/dashboard")
+        else:
+            return redirect("/admin/login")
+
+    else:
+        return render_template("admin/login.html")
+# admin dashboard routes
+@app.route("/admin/dashboard", methods=["GET"])
 def dashboard():
     return render_template("admin/dashboard.html")
