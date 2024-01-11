@@ -3,5 +3,20 @@
 <title>Admin Login</title>    
 {% endblock %}
 {% block body %}
-    <h1>Admin login</h1>
+<div class="login-box">
+    <form>
+      <div class="user-box">
+        <input type="text" name="username" required="">
+        <label>Username</label>
+      </div>
+      <div class="user-box">
+        <input type="password" name="password" required="">
+        <label>Password</label>
+      </div>
+      <a href="#">
+             SEND
+         <span></span>
+      </a>
+    </form>
+  </div>
 {% endblock %}
