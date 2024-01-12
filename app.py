@@ -13,6 +13,8 @@ app.register_blueprint(admin)
 app.register_blueprint(general)
 
 
+with app.app_context():
+    extention.db.create_all()
 
 if __name__ == '__main__':
     app.run(debug=True)
