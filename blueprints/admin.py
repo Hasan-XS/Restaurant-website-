@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template, session, request,abort, redirect
 import config
+from Model.food import Food
 
 app = Blueprint("admin",__name__)
 
