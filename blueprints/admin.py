@@ -24,6 +24,13 @@ def login():
 
     else:
         return render_template("admin/login.html")
+    
+# admin add food
+@app.route("/admin/food")
+def food():
+    return render_template("admin/food.html")
+
+
 # admin dashboard routes
 @app.route("/admin/dashboard", methods=["GET"])
 def dashboard():
