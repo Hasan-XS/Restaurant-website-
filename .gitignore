@@ -1,2 +1,4 @@
 config.py
 instance/
+__pycache__
+static/favicon/
