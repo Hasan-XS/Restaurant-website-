@@ -6,7 +6,7 @@ Technologies used:
  Flask
 
 
-- [*] Add food model.
-- [*] Templates food.
+- [#] Add food model.
+- [#] Templates food.
 - [ ] Optimizing the HTML and CSS of the food template
-- [*] Add favicon
+- [#] Add favicon
