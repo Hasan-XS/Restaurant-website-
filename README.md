@@ -4,7 +4,7 @@ This is a practice project.
 Technologies used:
 Python
 Flask
-## X
+## XS
 - [X] Create food model 
 - [X] Connect to the database 
 - [X] Creating a food admin template to add food 
@@ -12,3 +12,7 @@ Flask
 - [X] Create dashboard for admin
 - [X] Create login admin
 - [X] Connect to food admin template with backend
+- [ ] Show foods on Home
+- [ ] User model
+- [ ] Dashboard style
+- [ ] Use bootstrap
