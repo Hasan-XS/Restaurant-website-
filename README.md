@@ -5,10 +5,10 @@ Technologies used:
 Python
 Flask
 
-= [#] Create food model 
-= [#] Connect to the database 
-= [#] Creating a food admin template to add food 
-= [#] Add favicon
-= [#] Create dashboard for admin
-= [#] Create login admin
-= [ ] Connect to food admin template with backend 
+- [X] Create food model 
+- [X] Connect to the database 
+- [X] Creating a food admin template to add food 
+- [X] Add favicon
+- [X] Create dashboard for admin
+- [X] Create login admin
+- [ ] Connect to food admin template with backend 
