@@ -1,5 +1,3 @@
-from turtledemo.chaos import f
-
 from flask import Blueprint, render_template, session, request,abort, redirect
 import config
 from Model.food import Food
