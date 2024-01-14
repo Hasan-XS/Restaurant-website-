@@ -4,7 +4,7 @@ This is a practice project.
 Technologies used:
 Python
 Flask
-## TODO
+## X
 - [X] Create food model 
 - [X] Connect to the database 
 - [X] Creating a food admin template to add food 
