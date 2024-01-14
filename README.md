@@ -11,4 +11,4 @@ Flask
 - [X] Add favicon
 - [X] Create dashboard for admin
 - [X] Create login admin
-- [ ] Connect to food admin template with backend 
+- [X] Connect to food admin template with backend
