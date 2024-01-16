@@ -6,3 +6,10 @@ app = Blueprint("general",__name__)
 def home():
     return "home"
 
+@app.route("/menu")
+def menu():
+    return "menu"
+
+@app.route("/about")
+def about():
+    return "about"

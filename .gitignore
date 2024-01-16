@@ -4,3 +4,4 @@ __pycache__
 static/favicon/
 static/food/
 .idea
+.vscode

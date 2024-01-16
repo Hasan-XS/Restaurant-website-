@@ -13,6 +13,6 @@ Flask
 - [X] Create login admin
 - [X] Connect to food admin template with backend
 - [ ] Show foods on Home
+- [X] Create all route in blueprint general
+- [ ] Create login form
 - [X] User model
-- [ ] Dashboard style
-- [ ] Use bootstrap
