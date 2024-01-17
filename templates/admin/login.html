@@ -1,19 +1,13 @@
 {% extends 'base.html' %}
 {% block title %}
-<title>Admin Login</title>    
+<title>Admin Login</title>
 {% endblock %}
 {% block body %}
 <div class="login-box">
-    <form method="post">
-      <div class="user-box">
-        <input type="text" name="username" required="">
-        <label>Username</label>
-      </div>
-      <div class="user-box">
-        <input type="password" name="password" required="">
-        <label>Password</label>
-      </div>
-      <input type="submit">
-    </form>
-  </div>
+  <form action="#" method="post">
+    <input type="text" name="username">
+    <input type="password" name="password">
+    <input type="submit">
+  </form>
+</div>
 {% endblock %}

@@ -22,7 +22,7 @@ def login():
             return redirect("/admin/dashboard")
         else:
             return redirect("/admin/login")
-
+        
     else:
         return render_template("admin/login.html")
     
